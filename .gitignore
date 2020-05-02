@@ -1,0 +1,12 @@
+# Arquivos de dados
+*.txt
+*.csv
+*.db
+*.xls
+*.xlsx
+*.sqlite
+
+# Arquivos de Python
+*.pyc
+__pycache__
+_pycache_
