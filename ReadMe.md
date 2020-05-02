@@ -47,7 +47,7 @@ Modelo treinado e validado! Mas e agora? Fazer o que com ele? Quem vai usá-lo? 
 ## Códigos e dados
 Todo material necessário para acompanhar o que será desenvolvido ficará disponível neste repositório.
 
-Para baixar os dados originais, clique [aqui](https://drive.google.com/drive/folders/1kdrHJOXGGud5nVv2EJU0IcXLma47ovu1?usp=sharing).
+Para baixar os dados originais, clique [aqui](https://drive.google.com/drive/folders/1kdrHJOXGGud5nVv2EJU0IcXLma47ovu1?usp=sharing). Após o download, mantenha o arquivo **olist.db** dentro da pasta ***/data***.
 
 ## Links úteis:
 
@@ -61,4 +61,5 @@ Para baixar os dados originais, clique [aqui](https://drive.google.com/drive/fol
 | Editor de código | [Sublime3](https://www.sublimetext.com/3) |
 | Distribuição GNU/Linux | [Manjaro](https://manjaro.org/) |
 | Distribuição GNU/Linux | [Ubuntu](https://ubuntu.com/) |
+| Material | [Livros](https://github.com/TeoCalvo/twitch/blob/master/mateiral_apoio/livros.md)
 | Comunidade | [Discord](https://discord.gg/EUMCn7z) |
