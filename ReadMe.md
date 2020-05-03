@@ -1,4 +1,4 @@
-# Maratona de Data Science (DS-Tona)
+# Maratona de Data Science (DTona!)
 
 ## Aprendendo Data Science na vida real!
 
