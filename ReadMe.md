@@ -4,7 +4,7 @@
 
 Vamos fazer lives com projetos reais, mostrando como é realmente o dia a dia de um cientista de dados. Você entenderá todo o ciclo analítico, bem como as tecnologias adotadas em cada etapa e as boas práticas para que tudo funcione.
 
-Nossas lives acontecem sempre no [Twitch](www.twitch.tv/teomewhy), às 20hrs. Você pode conferir nosso calendário com toda a programação. Caso você perca alguma live, a mesma fica gravada por 14 dias no próprio Twitch. Vamos fazer um esforço para colocá-las no nosso canal do [YouTube](https://www.youtube.com/channel/UC-Xa9J9-B4jBOoBNIHkMMKA), mas lembre-se que é muito mais divertido estar conosco ao vivo!
+Nossas lives acontecem sempre na [Twitch](www.twitch.tv/teomewhy), às 20hrs. Você pode conferir nosso calendário com toda a programação. Caso você perca alguma live, a mesma fica gravada por 14 dias na própria Twitch. Vamos fazer um esforço para colocá-las no nosso canal do [YouTube](https://www.youtube.com/channel/UC-Xa9J9-B4jBOoBNIHkMMKA), mas lembre-se que é muito mais divertido estar conosco ao vivo!
 
 ## Calendário
 
