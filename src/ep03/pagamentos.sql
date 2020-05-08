@@ -1,0 +1,2 @@
+select distinct payment_type
+from tb_order_payments
