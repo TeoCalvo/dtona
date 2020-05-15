@@ -45,7 +45,7 @@ Vamos brincar com outros algoritmos? Qual sua técnica predileta? Vamos conhecer
 Modelo treinado e validado! Mas e agora? Fazer o que com ele? Quem vai usá-lo? Quem vai gerar valor a partir dele?
 
 ## Códigos e dados
-Todo material necessário para acompanhar o que será desenvolvido ficará disponível neste repositório.
+Todo material necessário para acompanhar o que será desenvolvido ficará disponível neste repositório. Os dados foram adquitido no [Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce), fornecidos pela empresa [Olist](https://olist.com/).
 
 Para baixar os dados originais, clique [aqui](https://drive.google.com/drive/folders/1kdrHJOXGGud5nVv2EJU0IcXLma47ovu1?usp=sharing). Após o download, mantenha o arquivo **olist.db** dentro da pasta ***/data***.
 
