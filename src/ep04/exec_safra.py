@@ -32,7 +32,7 @@ con = connect_db()
 
 try:
     print("\n Tentando deletar...", end="")
-    con.execute( 'delete from tb_book_sellers where dt_ref = {date}'.format(date=date) )
+    con.execute( "delete from tb_book_sellers where dt_ref = '{date}'".format(date=date) )
     print("ok.")
 except:
     print("Tabela não encontrada!")
