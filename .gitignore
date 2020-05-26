@@ -13,3 +13,6 @@
 *.pyc
 __pycache__
 _pycache_
+
+# Modelos
+*.pkl

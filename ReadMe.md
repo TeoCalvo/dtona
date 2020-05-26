@@ -18,11 +18,11 @@ Episódio | Dia | Conteúdo |
 | 6 | 19-05-2020 | O que é base Out Of Time? |
 | 7 | 21-05-2020 | Primeiro Classificador Treinado! |
 | 8 | 26-05-2020 | Comparando modelos |
-| 9 | 28-05-2020 | Convidado especial: PyCaret |
-| 10 | 02-06-2020 | Fazendo predições / deploy |
+| 9 | 28-05-2020 | Fazendo predições / deploy |
+| 10 | 02-06-2020 | Convidado especial: PyCaret |
 | 11 | 04-06-2020 | Primeiros passos em Cluster |
 | 12 | 09-06-2020 | Segundos passos em Cluster |
-| 13 | 11-06-2020 | Se faz score para Cluster? |
+| 13 | 11-06-2020 | Fazendo score para Cluster? |
 
 #### Episódio 1
 Demos o primeiro passo no mundo de ciência de dados, apresentando os conceitos de Machine Learning e como a máquina gera suas próprias regras a partir de exemplos. Nos próximos episódios, vamos descobrir como criar essa tabela de exemplos.
