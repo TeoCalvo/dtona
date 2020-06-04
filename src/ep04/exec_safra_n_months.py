@@ -35,21 +35,22 @@ while dt <= dt_end:
     dt = dt.strftime("%Y-%m-%d")
 
     try:
-        print("\n Tentando resetar {dt}...".format(dt=dt), end="")
+        #print("\n Tentando resetar {dt}...".format(dt=dt), end="")
         con.execute("delete from tb_book_sellers where dt_ref = '{date}'".format(date=dt))
-        print("ok.")
+        #print("ok.")
     except:
-        print("Tabela não encontrada!")
+        #print("Tabela não encontrada!")
+        pass
 
     try:
-        print("\n Tentando criar tabela...", end="")
+        #print("\n Tentando criar tabela...", end="")
         base_query = 'create table tb_book_sellers as\n {query}'
         con.execute(base_query.format(query=query.format(date=dt)))
-        print("ok.")
+        #print("ok.")
     except:
-        print("\n Tabela já existente, inserindo dados de {dt}...".format(dt=dt), end="")
+        #print("\n Tabela já existente, inserindo dados de {dt}...".format(dt=dt), end="")
         base_query = 'insert into tb_book_sellers \n {query}'
         con.execute(base_query.format(query=query.format(date=dt)))
-        print("ok.\n")
+        #print("ok.\n")
 
     dt = datetime.strptime( dt, "%Y-%m-%d" ) + relativedelta(months=1)
