@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn import tree
 from sklearn import metrics
 from sklearn import preprocessing
+from sklearn import ensemble
 from yellowbrick.cluster import KElbowVisualizer
 
 TRAIN_DIR = os.path.join( os.path.abspath("."), "segmentacao","train" )
@@ -60,7 +61,10 @@ print(df[["seller_id", "cluster_id_cat", "cluster_id_rfv", "cluster_id_full"]])
 #####################
 ## Rodando árvore ###
 #####################
-clf = tree.DecisionTreeClassifier()
+clf = ensemble.RandomForestClassifier( n_estimators=500,
+                                       min_samples_split=30,
+                                       random_state=1992)
+
 clf.fit(df[ features['categorias'] + features['rfv']], df['cluster_id_full'])
 metrics.accuracy_score( df['cluster_id_full'], clf.predict(df[ features['categorias'] + features['rfv']]) )
 
@@ -68,4 +72,5 @@ model = pd.Series( {
     "model":clf,
     "features":features["categorias"] + features["rfv"] }
 )
+
 model.to_pickle( os.path.join(MODELS_DIR, 'model.pkl') )
