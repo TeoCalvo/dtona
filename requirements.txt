@@ -1,0 +1,9 @@
+matplotlib==3.8.4
+numpy==1.26.4
+pandas==2.2.2
+python_dateutil==2.9.0
+python_dateutil==2.9.0.post0
+scikit_learn==1.4.2
+seaborn==0.13.2
+SQLAlchemy==2.0.29
+yellowbrick==1.5
